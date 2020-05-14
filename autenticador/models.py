@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Dispositivos(models.Model):
+class Device(models.Model):
     nombre=models.CharField(max_length=30,default="Nombre")
     modelo=models.CharField(max_length=30, null=True)
     descripcion=models.CharField(max_length=30, null=True)
