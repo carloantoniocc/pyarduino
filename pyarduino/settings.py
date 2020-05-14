@@ -25,7 +25,8 @@ SECRET_KEY = '#ixokdw6!og^j08*k!sy@a+i&$dv8u1w+-pygomr(n^bxlcgs!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [".goorm.io"]
+
 
 
 # Application definition
@@ -117,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es-es'
 
 TIME_ZONE = 'UTC'
 
